@@ -2214,6 +2214,66 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="2_MTWX12JYe" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modellwerkstatt.wbkit" />
+        <property role="3LESm3" value="c0dbbc6d-580d-44ed-bcbf-53b6d3868695" />
+        <node concept="398BVA" id="2_MTWX12K8w" role="3LF7KH">
+          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+          <node concept="2Ry0Ak" id="2_MTWX12Khw" role="iGT6I">
+            <property role="2Ry0Am" value="wbkit" />
+            <node concept="2Ry0Ak" id="2_MTWX12KpQ" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="2_MTWX12Kyc" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modellwerkstatt.wbkit" />
+                <node concept="2Ry0Ak" id="2_MTWX12KFO" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modellwerkstatt.wbkit.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2_MTWX12KP7" role="3bR37C">
+          <node concept="3bR9La" id="2_MTWX12KP8" role="1SiIV1">
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2_MTWX12KP9" role="3bR37C">
+          <node concept="3bR9La" id="2_MTWX12KPa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2_MTWX12KPb" role="3bR37C">
+          <node concept="3bR9La" id="2_MTWX12KPc" role="1SiIV1">
+            <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2_MTWX12KPi" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2_MTWX12KPj" role="1HemKq">
+            <node concept="398BVA" id="2_MTWX12KPd" role="3LXTmr">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="2_MTWX12KPe" role="iGT6I">
+                <property role="2Ry0Am" value="wbkit" />
+                <node concept="2Ry0Ak" id="2_MTWX12KPf" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="2_MTWX12KPg" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.wbkit" />
+                    <node concept="2Ry0Ak" id="2_MTWX12KPh" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2_MTWX12KPk" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3LEwk6" id="143EhQX8tUA" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.MoWareWerkbank" />
