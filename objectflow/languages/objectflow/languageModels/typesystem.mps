@@ -2546,10 +2546,10 @@
     <property role="TrG5h" value="check_Command" />
     <property role="3GE5qa" value="OFXCore.cmd" />
     <node concept="3clFbS" id="MT9RZiHg3d" role="18ibNy">
-      <node concept="3clFbJ" id="4ezdYK8PXGG" role="3cqZAp">
-        <node concept="3clFbS" id="4ezdYK8PXGI" role="3clFbx">
-          <node concept="3clFbJ" id="4ezdYK8OIGD" role="3cqZAp">
-            <node concept="3clFbS" id="4ezdYK8OIGF" role="3clFbx">
+      <node concept="3clFbJ" id="4ezdYK8OIGD" role="3cqZAp">
+        <node concept="3clFbS" id="4ezdYK8OIGF" role="3clFbx">
+          <node concept="3clFbJ" id="4ezdYK8PXGG" role="3cqZAp">
+            <node concept="3clFbS" id="4ezdYK8PXGI" role="3clFbx">
               <node concept="2MkqsV" id="4ezdYK8OPeI" role="3cqZAp">
                 <node concept="Xl_RD" id="4ezdYK8OPeZ" role="2MkJ7o">
                   <property role="Xl_RC" value="Graph Edit commands should not specify an ui color. The color should be inherited from the session owner." />
@@ -2564,35 +2564,73 @@
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="4ezdYK8OIS8" role="3clFbw">
-              <node concept="2OqwBi" id="4ezdYK8OIS9" role="2Oq$k0">
-                <node concept="1YBJjd" id="4ezdYK8OISa" role="2Oq$k0">
+            <node concept="2OqwBi" id="4ezdYK8PZRV" role="3clFbw">
+              <node concept="2OqwBi" id="4ezdYK8PY64" role="2Oq$k0">
+                <node concept="1YBJjd" id="4ezdYK8PXSv" role="2Oq$k0">
                   <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                 </node>
-                <node concept="3TrcHB" id="4ezdYK8OISb" role="2OqNvi">
-                  <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
+                <node concept="3TrEf2" id="4ezdYK8PZIt" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:4ezdYK8yZAb" resolve="defaultColor" />
                 </node>
               </node>
-              <node concept="21noJN" id="4ezdYK8OISc" role="2OqNvi">
-                <node concept="21nZrQ" id="4ezdYK8OISd" role="21noJM">
-                  <ref role="21nZrZ" to="un0u:5HvIBdINHdI" resolve="GRAPH_EDIT_CMD" />
+              <node concept="3x8VRR" id="4ezdYK8Q1wn" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="2_MTWX1zO0U" role="3cqZAp" />
+          <node concept="3clFbJ" id="2_MTWX1zVtU" role="3cqZAp">
+            <node concept="3clFbS" id="2_MTWX1zVtW" role="3clFbx">
+              <node concept="2MkqsV" id="2_MTWX1$bn3" role="3cqZAp">
+                <node concept="Xl_RD" id="2_MTWX1$bpk" role="2MkJ7o">
+                  <property role="Xl_RC" value="Graph Edit command should not push any objects. (New with 2026.1, why do you want to do that?) " />
                 </node>
+                <node concept="1YBJjd" id="2_MTWX1$bGW" role="1urrMF">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="2_MTWX1$f3A" role="3clFbw">
+              <node concept="2OqwBi" id="2_MTWX1$6mM" role="3uHU7B">
+                <node concept="2OqwBi" id="2_MTWX1zVJC" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2_MTWX1zVwO" role="2Oq$k0">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
+                  <node concept="3Tsc0h" id="2_MTWX1$4ep" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" resolve="finalOkSelection" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="2_MTWX1$aWT" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="2_MTWX1$bR5" role="3uHU7w">
+                <node concept="2OqwBi" id="2_MTWX1$bR6" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2_MTWX1$bR7" role="2Oq$k0">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
+                  <node concept="3Tsc0h" id="2_MTWX1$bR8" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:1dqt$gJc2G4" resolve="finalCancelSelection" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="2_MTWX1$bR9" role="2OqNvi" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="4ezdYK8PZRV" role="3clFbw">
-          <node concept="2OqwBi" id="4ezdYK8PY64" role="2Oq$k0">
-            <node concept="1YBJjd" id="4ezdYK8PXSv" role="2Oq$k0">
+        <node concept="2OqwBi" id="4ezdYK8OIS8" role="3clFbw">
+          <node concept="2OqwBi" id="4ezdYK8OIS9" role="2Oq$k0">
+            <node concept="1YBJjd" id="4ezdYK8OISa" role="2Oq$k0">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
             </node>
-            <node concept="3TrEf2" id="4ezdYK8PZIt" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:4ezdYK8yZAb" resolve="defaultColor" />
+            <node concept="3TrcHB" id="4ezdYK8OISb" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:5HvIBdINHAd" resolve="newCommandType" />
             </node>
           </node>
-          <node concept="3x8VRR" id="4ezdYK8Q1wn" role="2OqNvi" />
+          <node concept="21noJN" id="4ezdYK8OISc" role="2OqNvi">
+            <node concept="21nZrQ" id="4ezdYK8OISd" role="21noJM">
+              <ref role="21nZrZ" to="un0u:5HvIBdINHdI" resolve="GRAPH_EDIT_CMD" />
+            </node>
+          </node>
         </node>
       </node>
+      <node concept="3clFbH" id="2_MTWX1zHkV" role="3cqZAp" />
       <node concept="3clFbH" id="4ezdYK8PXgi" role="3cqZAp" />
       <node concept="3clFbH" id="4ezdYK8OIxm" role="3cqZAp" />
       <node concept="3clFbJ" id="48aWMpCXcR5" role="3cqZAp">
