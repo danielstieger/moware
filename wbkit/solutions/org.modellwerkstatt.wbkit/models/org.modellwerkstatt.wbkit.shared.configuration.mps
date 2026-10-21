@@ -2062,5 +2062,70 @@
       <property role="DIBdz" value="Beispiel Batchjob auf Tomcat: automatisierte Ausführung ohne Oberfläche" />
     </node>
   </node>
+  <node concept="2CG7Z0" id="3n0ZgadZa6z">
+    <property role="TrG5h" value="Test" />
+    <node concept="2CJf3v" id="3n0ZgadZa6$" role="2CGBMS">
+      <property role="TrG5h" value="logConfig" />
+      <node concept="Xl_RD" id="3n0ZgadZa6_" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.Log4JLogLevel" />
+      </node>
+      <node concept="2CJf1O" id="3n0ZgadZa6A" role="2CJ4_l">
+        <node concept="Xl_RD" id="3n0ZgadZa6B" role="2DqwMv">
+          <property role="Xl_RC" value="String" />
+        </node>
+        <node concept="Xl_RD" id="3n0ZgadZa6C" role="2DqwMp">
+          <property role="Xl_RC" value="firma.app" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="3n0ZgadZa6D" role="2CJ4_l">
+        <node concept="Xl_RD" id="3n0ZgadZa6E" role="2DqwMv">
+          <property role="Xl_RC" value="String" />
+        </node>
+        <node concept="Xl_RD" id="3n0ZgadZa6F" role="2DqwMp">
+          <property role="Xl_RC" value="INFO" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3n0ZgadZa6G" role="2CGBMS" />
+    <node concept="2CJf3v" id="3n0ZgadZa6H" role="2CGBMS">
+      <property role="TrG5h" value="consoleAppFactory" />
+      <node concept="Xl_RD" id="3n0ZgadZa6I" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
+      </node>
+      <node concept="DIB$F" id="3n0ZgadZa6M" role="lGtFl">
+        <property role="DIBdz" value="AppFactory ohne Oberfläche für Testsuiten" />
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3n0ZgadZa6N" role="2CGBMS" />
+    <node concept="2CJ4_Q" id="3n0ZgadZa6O" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yXE" resolve="JobEnvironment" />
+    </node>
+    <node concept="2CJ4_Q" id="3n0ZgadZa6P" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yVp" resolve="FakePrint" />
+    </node>
+    <node concept="2CJ4_Q" id="3n0ZgadZa6Q" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yV1" resolve="FakeEventBus" />
+    </node>
+    <node concept="2CJ4_Q" id="3n0ZgadZa6R" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yRq" resolve="GermanLocale" />
+    </node>
+    <node concept="2CJ4_Q" id="3n0ZgadZa6S" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yRO" resolve="LocalDB_MySQL" />
+    </node>
+    <node concept="2CJ4_Q" id="3n0ZgadZa6T" role="2CGBMS">
+      <ref role="2CJ4_N" node="3UVQH4n4yQS" resolve="MoWare_BasicInfrastructure" />
+    </node>
+    <node concept="20ptWn" id="3n0ZgadZa6U" role="20ptHX">
+      <node concept="Xl_RD" id="3n0ZgadZa6V" role="20ptNC">
+        <property role="Xl_RC" value="firma.app" />
+      </node>
+      <node concept="Xl_RD" id="3n0ZgadZagH" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.wbkit.shared" />
+      </node>
+    </node>
+    <node concept="DIB$F" id="3n0ZgadZa6W" role="lGtFl">
+      <property role="DIBdz" value="Beispiel Testkonfiguration für OFXTestSuits: ohne Oberfläche, Benutzer aus JobEnvironment, lokale Datenbank; scannt zusätzlich org.modellwerkstatt.wbkit.shared, damit CS (Custom Session für Testdaten) gefunden wird" />
+    </node>
+  </node>
 </model>
 
