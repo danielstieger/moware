@@ -447,20 +447,20 @@
         </node>
         <node concept="2CJ4$C" id="3UVQH4n4yTN" role="2CJ4_l">
           <property role="TrG5h" value="url" />
-          <node concept="Xl_RD" id="3UVQH4n4yTP" role="2CaGCA">
-            <property role="Xl_RC" value="${DB_URL}" />
+          <node concept="Xl_RD" id="6xMe9n9mOaB" role="2CaGCA">
+            <property role="Xl_RC" value="jdbc:mysql://localhost/test?useUnicode=true&amp;amp;useJDBCCompliantTimezoneShift=true&amp;amp;useLegacyDatetimeCode=false&amp;amp;serverTimezone=UTC" />
           </node>
         </node>
         <node concept="2CJ4$C" id="3UVQH4n4yTQ" role="2CJ4_l">
           <property role="TrG5h" value="username" />
           <node concept="Xl_RD" id="3UVQH4n4yTS" role="2CaGCA">
-            <property role="Xl_RC" value="${DB_USERNAME}" />
+            <property role="Xl_RC" value="dan" />
           </node>
         </node>
         <node concept="2CJ4$C" id="3UVQH4n4yTT" role="2CJ4_l">
           <property role="TrG5h" value="password" />
           <node concept="Xl_RD" id="3UVQH4n4yTV" role="2CaGCA">
-            <property role="Xl_RC" value="${DB_PASSWORD}" />
+            <property role="Xl_RC" value="dan" />
           </node>
         </node>
         <node concept="2CJ4$C" id="3UVQH4n4yTW" role="2CJ4_l">

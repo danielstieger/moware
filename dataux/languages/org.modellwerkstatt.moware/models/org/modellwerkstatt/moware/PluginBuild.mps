@@ -188,7 +188,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="6dwpgMJ2e86" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 2026.1 / moware25 2026.30 (ai)" />
+          <property role="3MwjfP" value="MPS 2026.2 / moware25 2026.30 (ai)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -2347,8 +2347,8 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="4EjcJZr7lAu" role="2Ry0An">
                 <property role="2Ry0Am" value="javaexe" />
-                <node concept="2Ry0Ak" id="4EjcJZr7lQ_" role="2Ry0An">
-                  <property role="2Ry0Am" value="MPS2026_1" />
+                <node concept="2Ry0Ak" id="2tSP4YaqgaW" role="2Ry0An">
+                  <property role="2Ry0Am" value="MPS2026_2" />
                 </node>
               </node>
             </node>

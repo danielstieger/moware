@@ -22,7 +22,7 @@
 
   <include file="moware.xml" as="moware"/>
 
-  <property name="deployWarFile"       value="/Users/danielstieger/migration/2026_1/moware/turkuforms/assembly/dist/simpleone.war"/>
+  <property name="deployWarFile"       value="/Users/danielstieger/migration/2026_2/moware/turkuforms/assembly/dist/simpleone.war"/>
   <property name="deployContextPath"   value="/simpleone"/>
   
   <!-- Tomcat-Manager Access -->  

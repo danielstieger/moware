@@ -15,8 +15,8 @@ export PATH=$PATH:~/javaexe/ant/bin
 <project name="TurkuApp" default="mowareBuildSimpleOne">      
 
   <!-- **** app specific definitions **************************************************************** -->
-  <property name="appMainclass"         value="org.modellwerkstatt.simple.app.App_Desktop_Order" />
-  <property name="appConfiguration"     value="org/modellwerkstatt/simple/infra/configs/TurkuConfig.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.rechnungsverwaltung.app.Rechnungsverwaltung" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/rechnungsverwaltung/base/Turku.xml" /> 
   <property name="appFavicon"           value="./favicon.png" />
   
   
@@ -25,18 +25,18 @@ export PATH=$PATH:~/javaexe/ant/bin
   <include file="../../objectflow/assembly/moware.xml" as="moware"/>
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
-  <property name="solultionSimpleGen"   value="${buildUserHome}/simpleone/solutions/Simple/classes_gen" />
+  <property name="solultionSimpleGen"   value="${buildUserHome}/rechnung/Rechnungsverwaltung/solutions/org.modellwerkstatt.rechnungsverwaltung/classes_gen" />
   <!-- <property name="solultionSimpleGen1"  value="${buildUserHome}/FIRM/solutions/at.hafina.firmshared/classes_gen" />
   <property name="solultionJars"        value="${buildUserHome}/eFWWS/jars" /> -->
     
 
   <!-- name of war and version -->
-  <property name="appName" value="simpleone" />
+  <property name="appName" value="rechnungsverwaltung" />
   <exec executable="${javaExecutable}" outputproperty="appBuildVersion">
    <arg value="-cp"/>
    <!-- <arg value="${solultionSimpleGen};${execInBuildClassPathWin}" /> -->
    <arg value="${solultionSimpleGen}:${execInBuildClassPathUnix}" />
-   <arg value="org.modellwerkstatt.simple.infra.objects.TestSetting" />
+   <arg value="org.modellwerkstatt.rechnungsverwaltung.base.Settings" />
    <!-- ><arg value="odv" />  OLD Deployed version -->
   </exec>
   

@@ -3,7 +3,7 @@
         id="WebApp_ID" version="3.0"
         xmlns="http://java.sun.com/xml/ns/javaee"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://java.sun.com/xml/n/home/rocketdan/migration/2026_1/moware/h2forms/assembly/artefact/web.xmls/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+        xsi:schemaLocation="http://java.sun.com/xml/n/home/rocketdan/migration/2026_2/moware/h2forms/assembly/artefact/web.xmls/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
     <description>
         Moware Turkuforms APPLICATION_FQNAME APPLICATION_BUILDVERSION

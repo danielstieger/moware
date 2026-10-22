@@ -6587,7 +6587,7 @@
         <node concept="3SKdUt" id="19ZFnT8AcjT" role="3cqZAp">
           <node concept="1PaTwC" id="19ZFnT8AcjU" role="1aUNEU">
             <node concept="3oM_SD" id="19ZFnT8Agmb" role="1PaTwD">
-              <property role="3oM_SC" value="file:/Users/danielstieger/migration/2026_1/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/jars/richclient/inputRuntimeTest/fx8flatter.css" />
+              <property role="3oM_SC" value="file:/Users/danielstieger/migration/2026_2/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/jars/richclient/inputRuntimeTest/fx8flatter.css" />
             </node>
           </node>
         </node>
