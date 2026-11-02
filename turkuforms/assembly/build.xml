@@ -12,7 +12,7 @@ export PATH=$PATH:~/javaexe/ant/bin
  
 -->
  
-<project name="TurkuApp" default="mowareBuildSimpleOne">      
+<project name="TurkuApp" default="mowareBuildSimpleOneMI">      
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appMainclass"         value="org.modellwerkstatt.rechnungsverwaltung.app.Rechnungsverwaltung" />
@@ -26,8 +26,7 @@ export PATH=$PATH:~/javaexe/ant/bin
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
   <property name="solultionSimpleGen"   value="${buildUserHome}/rechnung/Rechnungsverwaltung/solutions/org.modellwerkstatt.rechnungsverwaltung/classes_gen" />
-  <!-- <property name="solultionSimpleGen1"  value="${buildUserHome}/FIRM/solutions/at.hafina.firmshared/classes_gen" />
-  <property name="solultionJars"        value="${buildUserHome}/eFWWS/jars" /> -->
+  <property name="solultionSimpleGen1"        value="${buildUserHome}/moware/wbkit/solutions/org.modellwerkstatt.wbkit/classes_gen" />
     
 
   <!-- name of war and version -->
@@ -51,7 +50,7 @@ export PATH=$PATH:~/javaexe/ant/bin
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solultionSimpleGen}" />
-      <!-- <fileset dir="${solultionSimpleGen1}" /> -->
+      <fileset dir="${solultionSimpleGen1}" />
     </copy>
     
     <!-- <copy todir="work/WEB-INF/lib">
@@ -72,7 +71,7 @@ export PATH=$PATH:~/javaexe/ant/bin
     
   </target>
   
-  <target name="redeploy" depends="mowareBuildSimpleOne">
+  <target name="redeploy" depends="mowareBuildSimpleOneMI">
   	<copy todir="${tomcatHomeDir}/webapps/">
   		<fileset dir="dist/" />
   	</copy>

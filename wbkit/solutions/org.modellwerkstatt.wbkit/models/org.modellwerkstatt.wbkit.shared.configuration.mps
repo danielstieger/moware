@@ -445,22 +445,22 @@
             <property role="Xl_RC" value="com.mysql.cj.jdbc.Driver" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="3UVQH4n4yTN" role="2CJ4_l">
+        <node concept="2CJ4$C" id="2tSP4Yaz2c1" role="2CJ4_l">
           <property role="TrG5h" value="url" />
-          <node concept="Xl_RD" id="6xMe9n9mOaB" role="2CaGCA">
-            <property role="Xl_RC" value="jdbc:mysql://localhost/test?useUnicode=true&amp;amp;useJDBCCompliantTimezoneShift=true&amp;amp;useLegacyDatetimeCode=false&amp;amp;serverTimezone=UTC" />
+          <node concept="Xl_RD" id="3UVQH4n4yTP" role="2CaGCA">
+            <property role="Xl_RC" value="${DB_URL}" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="3UVQH4n4yTQ" role="2CJ4_l">
+        <node concept="2CJ4$C" id="2tSP4Yaz2c2" role="2CJ4_l">
           <property role="TrG5h" value="username" />
-          <node concept="Xl_RD" id="3UVQH4n4yTS" role="2CaGCA">
-            <property role="Xl_RC" value="dan" />
+          <node concept="Xl_RD" id="2tSP4Yaz2c3" role="2CaGCA">
+            <property role="Xl_RC" value="${DB_USERNAME}" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="3UVQH4n4yTT" role="2CJ4_l">
+        <node concept="2CJ4$C" id="2tSP4Yaz2c4" role="2CJ4_l">
           <property role="TrG5h" value="password" />
-          <node concept="Xl_RD" id="3UVQH4n4yTV" role="2CaGCA">
-            <property role="Xl_RC" value="dan" />
+          <node concept="Xl_RD" id="2tSP4Yaz2c5" role="2CaGCA">
+            <property role="Xl_RC" value="${DB_PASSWORD}" />
           </node>
         </node>
         <node concept="2CJ4$C" id="3UVQH4n4yTW" role="2CJ4_l">
@@ -978,6 +978,16 @@
       </node>
     </node>
     <node concept="2CPvp3" id="3UVQH4n4yXD" role="2CGBMS" />
+    <node concept="2CJoq6" id="2tSP4YazTEx" role="2CGBMS">
+      <property role="TrG5h" value="FakeLdap" />
+      <node concept="2CJf3v" id="2tSP4YazTG_" role="2CJdiS">
+        <property role="TrG5h" value="ldapService" />
+        <node concept="Xl_RD" id="2tSP4YazTGA" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.FakeMoLdapService" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="2tSP4YazTDG" role="2CGBMS" />
     <node concept="2CJoq6" id="3UVQH4n4yXE" role="2CGBMS">
       <property role="TrG5h" value="JobEnvironment" />
       <node concept="2CJf3v" id="3UVQH4n4yXF" role="2CJdiS">
