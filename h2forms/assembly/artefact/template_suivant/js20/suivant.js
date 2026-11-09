@@ -212,6 +212,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (offHeight > 0) {
             baseForm.style.paddingTop = '' + offHeight + 'px';
         }
+
+        // Nach dem Schriftwechsel (woff2-Fallback, font-display: swap) neu messen, sonst bleibt Leerraum unter der Titelleiste.
+        // splittedTitle haengt jetzt schon in topBar, daher reicht topBar.offsetHeight.
+        if (topBar && document.fonts) {
+            document.fonts.ready.then(function() {
+                var fontsOffHeight = topBar.offsetHeight;
+                if (fontsOffHeight > 0) {
+                    baseForm.style.paddingTop = '' + fontsOffHeight + 'px';
+                }
+            });
+        }
     }
 
     var sysMenu = $('.sv-bartitle');

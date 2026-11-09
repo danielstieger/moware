@@ -33,6 +33,23 @@
 }
 
 
+/* ---- Roboto (Schrift wie am Zebra-Geraet) -------------------------------- */
+/* Am Geraet greift local() mit der System-Roboto, die woff2 wird dort nicht geladen.
+   Desktop-Browser ohne Roboto nutzen die woff2 und brechen damit wie das Geraet um.
+   Dateien: @fontsource/roboto 5.3.0 (latin), Lizenz OFL-1.1 -> OFL-Roboto.txt
+   Zuweisung der font-family erfolgt in base.peb (nach w3.css geladen).        */
+@font-face {
+  font-family: 'Roboto'; font-style: normal; font-weight: 400; font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url(roboto-latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto'; font-style: normal; font-weight: 700; font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url(roboto-latin-700-normal.woff2) format('woff2');
+}
+
+
 
 
 /* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */

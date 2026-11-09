@@ -125,6 +125,8 @@
 
   <link rel="icon" type="image/ico" href="{{ statics.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
   <style media="screen" type="text/css">
+      /* Roboto wie am Zebra statt Verdana/Segoe UI aus w3.css - sonst brechen Desktop-Browser anders um (@font-face in suivant-tmpl.css) */
+      html, body, h1, h2, h3, h4, h5, h6 {font-family: Roboto, sans-serif}
       h1   {font-size:20px}
       h2   {font-size:18px}
       h3   {font-size:16px}
