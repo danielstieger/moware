@@ -10333,6 +10333,25 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="Xl_RD" id="5ybdBwlYh$u" role="37wK5m">
+                      <property role="Xl_RC" value="cmd long desc" />
+                      <node concept="17Uvod" id="5ybdBwlYlZx" role="lGtFl">
+                        <property role="2qtEX9" value="value" />
+                        <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                        <node concept="3zFVjK" id="5ybdBwlYlZy" role="3zH0cK">
+                          <node concept="3clFbS" id="5ybdBwlYlZz" role="2VODD2">
+                            <node concept="3clFbF" id="5ybdBwlYnC6" role="3cqZAp">
+                              <node concept="2OqwBi" id="5ybdBwlYqPt" role="3clFbG">
+                                <node concept="30H73N" id="5ybdBwlYnC5" role="2Oq$k0" />
+                                <node concept="3zqWPK" id="5ybdBwlYu6i" role="2OqNvi">
+                                  <ref role="37wK5l" to="70o0:5ybdBwlYMYZ" resolve="getCommandLongDescription" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="2ShNRf" id="78LsUBIf_a4" role="37wK5m">
                       <node concept="YeOm9" id="78LsUBIf_vd" role="2ShVmc">
                         <node concept="1Y3b0j" id="78LsUBIf_vg" role="YeSDq">
