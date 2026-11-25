@@ -2579,12 +2579,41 @@
           <node concept="3clFbH" id="2_MTWX1zO0U" role="3cqZAp" />
           <node concept="3clFbJ" id="2_MTWX1zVtU" role="3cqZAp">
             <node concept="3clFbS" id="2_MTWX1zVtW" role="3clFbx">
-              <node concept="2MkqsV" id="2_MTWX1$bn3" role="3cqZAp">
-                <node concept="Xl_RD" id="2_MTWX1$bpk" role="2MkJ7o">
-                  <property role="Xl_RC" value="Graph Edit command should not push any objects. (New with 2026.1, why do you want to do that?) " />
+              <node concept="3SKdUt" id="3TATaqJySQV" role="3cqZAp">
+                <node concept="1PaTwC" id="3TATaqJySQW" role="1aUNEU">
+                  <node concept="3oM_SD" id="3TATaqJySQX" role="1PaTwD">
+                    <property role="3oM_SC" value="use-case:" />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyT0l" role="1PaTwD">
+                    <property role="3oM_SC" value="new" />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyT6C" role="1PaTwD">
+                    <property role="3oM_SC" value="position" />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyT6D" role="1PaTwD">
+                    <property role="3oM_SC" value="GE," />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyT7z" role="1PaTwD">
+                    <property role="3oM_SC" value="select" />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyTaZ" role="1PaTwD">
+                    <property role="3oM_SC" value="pos" />
+                  </node>
+                  <node concept="3oM_SD" id="3TATaqJyTde" role="1PaTwD">
+                    <property role="3oM_SC" value="afterwards." />
+                  </node>
                 </node>
-                <node concept="1YBJjd" id="2_MTWX1$bGW" role="1urrMF">
-                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+              </node>
+              <node concept="1X3_iC" id="5XuR4w2BNex" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="2MkqsV" id="2_MTWX1$bn3" role="8Wnug">
+                  <node concept="Xl_RD" id="2_MTWX1$bpk" role="2MkJ7o">
+                    <property role="Xl_RC" value="Graph Edit command should not push any objects. (New with 2026.1, why do you want to do that?) " />
+                  </node>
+                  <node concept="1YBJjd" id="2_MTWX1$bGW" role="1urrMF">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
                 </node>
               </node>
             </node>
